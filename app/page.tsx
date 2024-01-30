@@ -1,12 +1,15 @@
+"use client";
 import Link from "next/link";
-import ProductCard from "./components/Product";
+import ProductCard from "./components/ProductCard";
+import AddCart from "./components/AddCart";
 
 export default function Home() {
   return (
     <main>
       <h2>Hello World</h2>
-      <ProductCard />
+
       <Link href="/users">Users</Link>
+      <ProductCard />
     </main>
   );
 }
